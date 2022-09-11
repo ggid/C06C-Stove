@@ -14,40 +14,65 @@ public class Burner {
 		return myTemperature;
 	}
 
+	public Burner() {
+		super();
+		this.myTemperature = Temperature.COLD;
+		this.mySetting = Setting.OFF;
+
+	}
+
 	public void plusButton() { // raise the setting one notch
 		timer = TIME_DURATION; // reset the timer
-		switch (mySetting) {
+		switch (this.mySetting) {
 		case HIGH:
 			break;
 		case MEDIUM:
-			mySetting = Setting.HIGH;
+			this.mySetting = Setting.HIGH;
 		case LOW:
-			mySetting = Setting.MEDIUM;
+			this.mySetting = Setting.MEDIUM;
 		case OFF:
-			mySetting = Setting.LOW;
+			this.mySetting = Setting.LOW;
 		}
 	}
 
 	public void minusButton() { // lower setting one notch
 		timer = TIME_DURATION; // reset the timer
-		switch (mySetting) {
+		switch (this.mySetting) {
 		case OFF:
 			break;
 		case LOW:
-			mySetting = Setting.OFF;
+			this.mySetting = Setting.OFF;
 		case MEDIUM:
-			mySetting = Setting.LOW;
+			this.mySetting = Setting.LOW;
 		case HIGH:
-			mySetting = Setting.MEDIUM;
+			this.mySetting = Setting.MEDIUM;
 		}
 	}
-	
-	public void updateTemperature() {
-		
+
+	public void updateTemperature() { // update the timer and temperature
+		timer--;
+
+		if (timer == 0) {
+			timer = TIME_DURATION;
+
+			switch (this.mySetting) {
+			case OFF:
+				break;
+			case LOW:
+				this.myTemperature = Temperature.WARM;
+			case MEDIUM:
+				this.myTemperature = Temperature.HOT;
+			case HIGH:
+				this.myTemperature = Temperature.BLAZING;
+			}
+		}
+
 	}
-	
+
 	public void display() {
-		
+
+		System.out.println(this.mySetting.toString());
+
 	}
 
 }
