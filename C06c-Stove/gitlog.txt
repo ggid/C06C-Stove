@@ -1,0 +1,5 @@
+commit adaadde450323f8138d327b80f551cfd297278cf
+Author: Greta Gideon <gretagideon@mines.edu>
+Date:   Thu Sep 8 17:29:00 2022 -0600
+
+    Initial commit containing the .gitignore and Stove.java file
