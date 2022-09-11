@@ -1,0 +1,30 @@
+commit c842f731f7f6d97ce8decc499905f47ea0dfd987
+Merge: d865679 b3aa910
+Author: Greta Gideon <gretagideon@mines.edu>
+Date:   Sun Sep 11 15:29:53 2022 -0600
+
+    Merge branch 'main' of https://github.com/ggid/C06C-Stove
+
+commit d8656794f647e9cdf3ca9429f007c680f06a6870
+Author: Greta Gideon <gretagideon@mines.edu>
+Date:   Sun Sep 11 15:27:54 2022 -0600
+
+    added gitlog file
+
+commit b3aa910a33cd899c3a7987673a7b2db9a1117911
+Author: cari-ri <112920752+cari-ri@users.noreply.github.com>
+Date:   Thu Sep 8 18:50:11 2022 -0600
+
+    Add Stove.java, Burner.java, and Setting.java
+
+commit dfca917adaa2e44cb43e35fffaf5d5d993b7391d
+Author: ggid <53879943+ggid@users.noreply.github.com>
+Date:   Thu Sep 8 17:45:26 2022 -0600
+
+    updated .gitignore
+
+commit adaadde450323f8138d327b80f551cfd297278cf
+Author: Greta Gideon <gretagideon@mines.edu>
+Date:   Thu Sep 8 17:29:00 2022 -0600
+
+    Initial commit containing the .gitignore and Stove.java file
