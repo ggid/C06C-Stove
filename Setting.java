@@ -8,23 +8,29 @@ public enum Setting {
 	private String addMe = "";
 
 	Setting(String quien) {
-		whoKnows = quien; // constructor that accepts a string
-
-		temps.put("OFF", "coool");
-		temps.put("LOW", "warm");
-		temps.put("MEDIUM", "CAREFUL");
-		temps.put("HIGH", "VERY HOT! DON'T TOUCH");
+		this.whoKnows = quien; // constructor that accepts a string
 
 	}
 
 	@Override
 	public String toString() { // toString() function
-		// switch(Setting) {
-		// case Setting == Setting.OFF:
 
-		// }
-		return "[" + this.whoKnows + "]....." + temps.get(this.whoKnows);
+		this.temps.put("OFF", "coool");
+		this.temps.put("LOW", "warm");
+		this.temps.put("MEDIUM", "CAREFUL");
+		this.temps.put("HIGH", "VERY HOT! DON'T TOUCH");
+
+		switch (this.whoKnows) {
+		case "---":
+			return "[" + this.whoKnows + "]....." + temps.get("OFF");
+		case "--+":
+			return "[" + this.whoKnows + "]....." + temps.get("LOW");
+		case "-++":
+			return "[" + this.whoKnows + "]....." + temps.get("MEDIUM");
+		case "+++":
+			return "[" + this.whoKnows + "]....." + temps.get("HIGH");
+		}
+		return ":(";
 	}
 
 }
-
