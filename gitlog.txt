@@ -1,3 +1,70 @@
+commit 99cc6e5325735805bfb3f25168dfa8ab1309ca23
+Merge: bf9f4d8 957dbc6
+Author: Greta Gideon <gretagideon@mines.edu>
+Date:   Tue Sep 13 11:01:10 2022 -0600
+
+    Merge branch 'main' of https://github.com/ggid/C06C-Stove
+
+commit bf9f4d852715bd3f937c4b0a6210cf248ccd3c0e
+Author: Greta Gideon <gretagideon@mines.edu>
+Date:   Tue Sep 13 11:00:33 2022 -0600
+
+    added FINAL gitlog file
+
+commit 957dbc6c394121548b91de018e623a6def4d687a
+Author: cari-ri <112920752+cari-ri@users.noreply.github.com>
+Date:   Tue Sep 13 10:59:06 2022 -0600
+
+    Create readme
+
+commit b4e9c4f6901903232c5931c54fa8074ae8ceef02
+Author: cari-ri <112920752+cari-ri@users.noreply.github.com>
+Date:   Tue Sep 13 10:56:30 2022 -0600
+
+    FINAL Stove
+
+commit 44c4e97f7cf59a600d402958d63676f0d8dbb097
+Author: cari-ri <112920752+cari-ri@users.noreply.github.com>
+Date:   Tue Sep 13 10:56:03 2022 -0600
+
+    FINAL Setting
+
+commit db6155765142e6c943728a9ab921c0bf008a95fe
+Author: cari-ri <112920752+cari-ri@users.noreply.github.com>
+Date:   Tue Sep 13 10:55:32 2022 -0600
+
+    FINAL Burner
+
+commit 3441b74e2c45bf04b21e9403eeb26ed061728a79
+Author: cari-ri <112920752+cari-ri@users.noreply.github.com>
+Date:   Tue Sep 13 10:54:46 2022 -0600
+
+    Finalized Stove
+
+commit 245596d3571359d7ca253ec48df7c9e462bd3a8c
+Author: cari-ri <112920752+cari-ri@users.noreply.github.com>
+Date:   Mon Sep 12 17:52:43 2022 -0600
+
+    Fixed display()
+
+commit b553c246a7f7c378613890f681daeff0e26c03b7
+Author: cari-ri <112920752+cari-ri@users.noreply.github.com>
+Date:   Sun Sep 11 17:45:14 2022 -0600
+
+    Update Burner.java
+
+commit 52fef71ec135c4c3e0bf18888f1d7fc9d20addc3
+Author: cari-ri <112920752+cari-ri@users.noreply.github.com>
+Date:   Sun Sep 11 17:44:36 2022 -0600
+
+    Update to Stove.java, display function created
+
+commit 536038a023da23d16a83f0c9cce546b6142b5098
+Author: cari-ri <112920752+cari-ri@users.noreply.github.com>
+Date:   Sun Sep 11 17:43:41 2022 -0600
+
+    Update Setting.java
+
 commit e33f42f41cf2895f5e837062bc3c185e37770bb5
 Author: Greta Gideon <gretagideon@mines.edu>
 Date:   Sun Sep 11 15:34:49 2022 -0600
