@@ -1,3 +1,9 @@
+commit e33f42f41cf2895f5e837062bc3c185e37770bb5
+Author: Greta Gideon <gretagideon@mines.edu>
+Date:   Sun Sep 11 15:34:49 2022 -0600
+
+    added real gitlog file
+
 commit c842f731f7f6d97ce8decc499905f47ea0dfd987
 Merge: d865679 b3aa910
 Author: Greta Gideon <gretagideon@mines.edu>
