@@ -7,6 +7,9 @@ import java.util.ArrayList;
  * @author Cyndi Rader
  * 
  *         Purpose: Simulates a stove
+ *         
+ * Edited by: Greta Gideon and Carissa Lee (Section B)
+ * 
  */
 public class Stove {
 	// Our stove will have 4 burners
@@ -30,10 +33,10 @@ public class Stove {
 	public void displayStove() {
 		// bool to see if blazing
 		boolean burn = false;
-		for (int i = 0; i < NUM_BURNERS; i++) {
-			burners.get(i).display();
-			if (burners.get(i).getMyTemperature() == Burner.Temperature.BLAZING) {
-				burn = true;
+		for (Burner burner : burners) {
+			burner.display(); // for each burner, display the message
+			if (burner.getMyTemperature() == Burner.Temperature.BLAZING) {
+				burn = true; // if the burner is blazing, display red light alert
 			}
 		}
 
